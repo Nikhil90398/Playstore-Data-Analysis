@@ -1,51 +1,50 @@
-# Playstore_Data_Analysis
-Analysis of google playstore data
-The Internet is a true gold mine of data. E-commerce and review sites are brimming with a lot of untapped data with a prominent potential to convert into meaningful insights that can help with robust decision making. Here, we explore using data science and machine learning techniques on data retrieved from one such avenue on the internet, the Google Play Store.![image](https://user-images.githubusercontent.com/109526052/194060139-6d19243c-4315-45a6-8a82-b232425797ac.png)
-Details of Dataset:-
-The Play Store apps data has enormous potential to drive app-making businesses to success. Actionable insights can be drawn for developers to work on and capture the Android market. The dataset is chosen from Kaggle. It is the web scraped data of 10k Play Store apps for analyzing the Android market. It consists of in total of 10841 rows and 13 columns.
+# Play-Store-App-Review-Analysis
+<p align="center">
+  <img 
+    src = "https://user-images.githubusercontent.com/86402845/208917635-a15b8ee2-8265-483c-b981-e46cfc560bc3.gif" width="1200" height="500"/>
+</p>
+The Play Store apps data has enormous potential to drive app-making businesses to success. Actionable insights can be drawn for developers to work on and capture the Android market.Each app (row) has values for catergory, rating, size, and more. Another dataset contains customer reviews of the android apps.<br><br>
 
-The columns of the dataset are as follows:
+**Details of Dataset:** The Play Store apps data has enormous potential to drive app-making businesses to success. Actionable insights can be drawn for developers to work on and capture the Android market.It is the web scraped data of 10k Play Store apps for analyzing the Android market. It consists of in total of 10841 rows and 13 columns.
 
-1] App (Name)
+**Attribute Information:**
 
-2] Category (App)
+**1.** App (Name)
 
-3] Rating (App)
+**2.** Category (App)
 
-4] Reviews (User)
+**3.** Rating (App)
 
-5] Size (App)
+**4.** Reviews (User)
 
-6] Installs (App)
+**5.** Size (App)
 
-7] Type (Free/Paid)
+**6.** Installs (App)
 
-8] Price (App)
+**7.** Type (Free/Paid)
 
-9] Content Rating (Everyone/Teenager/Adult)
+**8.** Price (App)
 
-10] Genres (Detailed Category)
+**9.** Content Rating (Everyone/Teenager/Adult)
 
-11] Last Updated (App)
+**10.** Genres (Detailed Category)
 
-12] Current Version (App)
+**11.** Last Updated (App)
 
-13] Android Version (Support)
+**12.** Current Version (App)
 
-1]Observation:-
-![download](https://user-images.githubusercontent.com/109526052/194061922-7b09c58b-60fe-41bb-b7f1-0269ee34bf87.png)
-2]Observations:-
-![download](https://user-images.githubusercontent.com/109526052/194062014-5146602a-2a7a-4c46-b8e9-d5d3622b31c3.png)
-3]Observations:-
-![download](https://user-images.githubusercontent.com/109526052/194062184-22df5bde-bfbf-4aa8-83c2-d41a226c2ac2.png)
-4]Pai Chart:-
-![download](https://user-images.githubusercontent.com/109526052/194062424-7a6717aa-e6ce-4662-a3bb-e4fcb5679afc.png)
+**13.** Android Version (Support)
 
+****
+**Conclusion:**
+* We calculated the average reviews across each category and we also calculated top category and top genres of apps in the given dataset.
 
-CONCLUSION AND FUTURE WORK :-
+* Further we also calculated apps installed according to their category and genres. We observe the maximum number of apps present in google play store    comes under Tools, Entertainment and Education Genres but as per the installation and requirement in the market plot, scenario is not the same. Maximum installed apps come under Communication,Productivity and Social Genres.
 
-How every feature has a unique impact on the story
-Why exploring data is important before starting to build ML models
-How visualizations make anything interesting.
-There's a hell lot of competition in Android market.
+* We also observe that the percentage of free apps is more than 90% in the given dataset.
+
+* We also draw the pie chart of review sentiments and observe that the percentage of positive sentiments is near about 64%.
+
+* Histogram of sentiment subjectivity and observe the maximum number of sentiment subjectivity lies between 0.4 to 0.7. From this we can conclude that the maximum number of users give reviews to the applications, according to their experience.
+
 
