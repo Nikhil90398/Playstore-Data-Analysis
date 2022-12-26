@@ -1,4 +1,4 @@
-# Play-Store-App-Review-Analysis
+# PlayStore-Data-Analysis
 <p align="center">
   <img 
     src = "https://user-images.githubusercontent.com/86402845/208917635-a15b8ee2-8265-483c-b981-e46cfc560bc3.gif" width="1200" height="500"/>
